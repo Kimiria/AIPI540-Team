@@ -27,7 +27,7 @@ The image below displays some of the results from the mask compliance tool. Real
 First install the requirements necessary to run the python files.
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Machine Learning Approach
