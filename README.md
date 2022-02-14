@@ -42,7 +42,18 @@ Here's an example of how to execute the file using Google [Colab](https://colab.
 
 ### Deep Learning Approach
 
-The second approach, as described earlier, and shown in the demo utilizes the Yolo v5 architecture trained on new images of the desired classes. The tool can be called by running the file below:
+As for the deep learning approach, we adopt YOLOv5 model, which is a family of object detection architecture and pretrained on the COCO dataset. To start with, we could clone repo and install [requirements.txt](https://github.com/ultralytics/yolov5/blob/master/requirements.txt) in a
+[**Python>=3.7.0**](https://www.python.org/) environment, including
+[**PyTorch>=1.7**](https://pytorch.org/get-started/locally/).
 
+```bash
+git clone https://github.com/ultralytics/yolov5  # clone
+cd yolov5
+pip install -r requirements.txt  # install
 ```
-```
+More detial of the YOLOv5 model and its tutorials, please refer to [**ultralytics**](https://github.com/ultralytics/yolov5)
+
+The model we used this time is YOLOv5s model, which is more adaptable to small datasets. After installing all of the requirements, you can execute the file `train.py`.
+
+The best weight for current dataset can be find in the file `runs\train\exp\weights\best.pt`
+
