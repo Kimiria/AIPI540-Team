@@ -8,7 +8,7 @@ In 2020, the Covid-19 pandemic changed the way students attend class in a tradit
 
 To solve this problem before using a Deep Learning approach, we were interested in doing some preliminary testing using a classic Machine Learning method. We decided to frame it as a multi-class classification problem so we could try to solve it using a Softmax Regression. The approach was impractical for several reasons, but especially due to the model's inability to learn at the local level and also to handle non-mutually exclusive labels in a single image. Nonetheless, if you'd like to run the code of this approach, you can follow these steps:
 
-After the installation process you can execute the file **`scripts\train_classic.py`**
+After installing all of the requirements, you can execute the file **`scripts\train_classic.py`**
 
    * The output will be the accuracy of the classic ML approach on both train and test sets.
 
